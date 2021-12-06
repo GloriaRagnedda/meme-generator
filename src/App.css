@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: purple;
+    box-shadow: 0px 3px 5px gray;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+input {
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 40px;
+    width: 100%;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+.main-inputs_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*img generator*/
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 1em;
+}
+
+.top {
+    top: 9em;
+}
+
+.meme {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.meme--image {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
